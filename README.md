@@ -1,10 +1,10 @@
 # Welcome to the SuperDataScience Community Project!
 
-Welcome to the **** repository! 🎉
+Welcome to the **BankTermPredict: Predicting Client Subscription to Term Deposits from Campaign Data** repository! 🎉
 
-This project is a collaborative initiative brought to you by SuperDataScience, a global learning community focused on data science, machine learning, and AI. Whether you’re starting with Generative AI or looking to deepen your skills with tool-using LLMs, we’re excited to have you on board!
+This project is a collaborative initiative brought to you by **SuperDataScience**, a global community dedicated to advancing the fields of **Data Science, Machine Learning, and AI**. We’re excited to have you on board for this journey of hands-on learning, experimentation, and growth.
 
-To contribute to this project, please follow the steps outlined in our [CONTRIBUTING.md](./CONTRIBUTING.md) file.
+To contribute to this project, please follow the guidelines in our [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ---
 
@@ -39,7 +39,7 @@ project-name/
 
 ## 🟢 Beginner Track
 
-
+The **Beginner Track** introduces participants to a traditional ML workflow for classification. You’ll clean and preprocess the data, explore imbalances, train multiple baseline models, and deploy your solution with Streamlit.
 
 📌 Get started:  
 ➡️ [Beginner Track Scope of Works](./beginner/README.md)  
@@ -50,7 +50,7 @@ project-name/
 
 ## 🔴 Advanced Track
 
-
+The **Advanced Track** takes a modern approach, applying **deep learning methods for tabular data**. You’ll design and tune neural networks, apply model explainability tools (e.g., SHAP, LIME), and explore containerized/API-based deployment.
 
 📌 Get started:  
 ➡️ [Advanced Track Scope of Works](./advanced/README.md)  
@@ -61,26 +61,17 @@ project-name/
 
 ## 📊 Dataset
 
----
-
-## 🌍 APIs & Tools
-
-This project relies on live web data via APIs.  
-- **Search APIs**: [Tavily](https://tavily.com/) or [SerpAPI](https://serpapi.com/)  
-- **LLMs**: OpenAI GPT models (or any provider supporting function/tool calling)  
-- **Deployment**: [Streamlit](https://streamlit.io/) or [Gradio](https://www.gradio.app/)  
+🔗 **Dataset:** [UCI Bank Marketing Dataset](https://archive.ics.uci.edu/dataset/222/bank+marketing)
 
 ---
 
-## 🗒️ Project Timeline Overview
+## 🗂️ Project Workflow & Timeline
 
-| Phase                           | General Activities                                                     |
-| ------------------------------- | ---------------------------------------------------------------------- |
-| **Week 1: Setup + EDA**         | Clean, explore, and visualize the data                                 |
-| **Week 2: Feature Engineering** | Transform features, encode variables, handle imbalance, prepare splits |
-| **Week 3: Model Development**   | Train ML or DL models and evaluate performance                         |
-| **Week 4: Model Optimization**  | Tune models, improve generalization, and interpret results             |
-| **Week 5: Deployment**          | Deploy models via Streamlit or API-based solutions                     |
+| Week           | Core Tasks                                                                                        |
+| -------------- | ------------------------------------------------------------------------------------------------- |
+| **Week 1**     | Setup, Exploratory Data Analysis, Feature Engineering                                             |
+| **Week 2 + 3** | Data Preprocessing , model development, model experimentation and tracking, hyperparameter tuning |
+| **Week 4**     | Model deployment to cloud, streamlit/gradio UI                                                    |
 
 ---
 

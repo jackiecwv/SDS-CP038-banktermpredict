@@ -55,13 +55,4 @@ The Advanced Track is designed for participants who want to apply **deep learnin
 
 ---
 
-## ❓ Key Questions to Answer
-
-1. Can deep learning methods outperform traditional ML models on this dataset?
-2. Which features contribute most to predictions according to explainability methods?
-3. How does tuning network architecture affect performance?
-4. What are the trade-offs between different deployment methods (Streamlit, Docker, API)?
-
----
-
 At the end of this track, you will have built, explained, and deployed a **deep learning model** for predicting term deposit subscriptions with modern deployment practices.

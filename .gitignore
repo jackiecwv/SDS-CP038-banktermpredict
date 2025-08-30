@@ -128,3 +128,9 @@ venv.bak/
 *.gz
 *.zip
 .vscode/
+
+# VS Code local settings
+.vscode/
+
+# Virtual environments
+.venv310/

@@ -11,8 +11,8 @@ plotly
 
 # Machine learning
 scikit-learn
-# xgboost
-# lightgbm
+xgboost
+lightgbm
 # catboost
 
 # Deep learning
@@ -22,17 +22,26 @@ scikit-learn
 # torchvision
 
 # Data processing
-# scipy
+scipy
+category-encoders
 
 # Jupyter support
 jupyter
-notebook
+ipykernel
 
 # Model evaluation
-# statsmodels
+statsmodels
+shap
+
+# Pipeline
+mlflow
+joblib
 
 # Utilities
-# tqdm
+tqdm
+
+# Web
+streamlit
 
 # Optional: Data connectors
 # sqlalchemy

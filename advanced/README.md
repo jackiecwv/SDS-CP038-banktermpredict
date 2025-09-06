@@ -31,11 +31,11 @@ The Advanced Track is designed for participants who want to apply **deep learnin
 * Evaluate with Accuracy, Precision, Recall, F1-score, and AUC
 * Track all experiments with **MLflow**
 * Apply regularization and early stopping
-
-### ✅ Week 4: Model Tuning + Deployment
-
 * Tune architecture: number of layers, neurons, dropout rates, learning rate, batch size
 * Use schedulers for learning rate adjustments
+
+### ✅ Week 4: Deployment
+
 * Save and package best model
 
 #### Deployment Options:
@@ -52,15 +52,6 @@ The Advanced Track is designed for participants who want to apply **deep learnin
 * **Deep Learning**: `tensorflow` or `pytorch`, `mlflow`
 * **Explainability**: `shap`, `lime`
 * **Deployment**: `streamlit`, `docker`, `fastapi` or `flask`
-
----
-
-## ❓ Key Questions to Answer
-
-1. Can deep learning methods outperform traditional ML models on this dataset?
-2. Which features contribute most to predictions according to explainability methods?
-3. How does tuning network architecture affect performance?
-4. What are the trade-offs between different deployment methods (Streamlit, Docker, API)?
 
 ---
 

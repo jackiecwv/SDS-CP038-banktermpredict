@@ -3,6 +3,22 @@
 .DS_Store
 .env
 
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.feather
+*.pickle
+*.pkl
+*.h5
+*.hdf5
+*.mat
+*.dat
+*.tsv
+*.xml
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -128,4 +144,8 @@ venv.bak/
 *.gz
 *.zip
 
-Data
+# VS Code local settings
+.vscode/
+
+# Virtual environments
+.venv310/

@@ -143,7 +143,6 @@ venv.bak/
 *.tar
 *.gz
 *.zip
-.vscode/
 
 # VS Code local settings
 .vscode/

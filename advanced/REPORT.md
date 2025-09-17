@@ -122,3 +122,59 @@ A:
 
 Q: Explain the role of the `shuffle` parameter in your training loader. Why is this setting important for the training set but not for the validation or testing sets?  
 A:  
+
+---
+
+## ✅ Week 3: Neural Network Experimentation & Explainability
+
+---
+
+### 🧪 1. Neural Network Architecture & Training
+
+Q: What neural network architecture did you use (layers, activations, dropout, batch normalization)?  
+A:  
+
+Q: How did you select and tune hyperparameters such as learning rate, batch size, and number of layers?  
+A:  
+
+Q: What regularization techniques did you apply, and how did they affect model performance?  
+A:  
+
+Q: How did you monitor and prevent overfitting during training (e.g., early stopping, validation curves)?  
+A:  
+
+---
+
+### 📊 2. Experiment Tracking
+
+Q: How did you track your deep learning experiments and results?  
+A:  
+
+Q: What insights did you gain from comparing different model runs using MLflow or similar tools?  
+A:  
+
+---
+
+### 🧠 3. Model Evaluation
+
+Q: Which evaluation metrics did you use to assess your neural network, and why?  
+A:  
+
+Q: How did your neural network's performance compare to baseline models?  
+A:  
+
+Q: What steps did you take to ensure the reliability and reproducibility of your results?  
+A:  
+
+---
+
+### 🕵️ 4. Model Explainability
+
+Q: What explainability methods (e.g., SHAP, LIME) did you apply to interpret your model's predictions?  
+A:  
+
+Q: What were the most important features according to your explainability analysis?  
+A:  
+
+Q: How did model explainability influence your understanding or trust in the model?  
+A:  

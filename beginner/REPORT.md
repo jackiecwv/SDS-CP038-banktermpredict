@@ -96,4 +96,60 @@ Q: How did you tune hyperparameters and validate your models?
 A:  
 
 Q: Which model performed best, and why did you select it?  
+A:
+
+---
+
+## ✅ Week 3: Model Experimentation & Tracking
+
+---
+
+### 🧪 1. Experiment Tracking
+
+Q: How did you track your model experiments and results?  
 A:  
+
+Q: What tools or frameworks did you use for experiment tracking (e.g., MLflow)?  
+A:  
+
+Q: How did experiment tracking help you in comparing different models and hyperparameters?  
+A:  
+
+---
+
+### 🚀 2. Advanced Model Training
+
+Q: Which advanced models or boosting methods did you experiment with (e.g., XGBoost, LightGBM)?  
+A:  
+
+Q: What differences did you observe in performance compared to baseline models?  
+A:  
+
+Q: How did you handle overfitting or underfitting during experimentation?  
+A:  
+
+---
+
+### 🛠️ 3. Hyperparameter Tuning & Validation
+
+Q: What hyperparameter tuning strategies did you use (e.g., GridSearchCV, RandomizedSearchCV)?  
+A:  
+
+Q: How did you validate your models (e.g., cross-validation)?  
+A:  
+
+Q: What were the key hyperparameters that influenced model performance?  
+A:  
+
+---
+
+### 📈 4. Model Selection & Insights
+
+Q: How did you select the final model for deployment?  
+A:  
+
+Q: What metrics and business considerations influenced your decision?  
+A:  
+
+Q: What insights did you gain from the model experimentation process?  
+A:

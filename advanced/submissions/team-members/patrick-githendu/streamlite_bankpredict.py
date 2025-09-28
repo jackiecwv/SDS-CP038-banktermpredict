@@ -5,7 +5,7 @@ import joblib
 # --- Load preprocessing objects only (not model) ---
 @st.cache_resource
 def load_preprocessing():
-    scaler = joblib.load('scaler.joblib')
+    scaler = joblib.load('/absolute/path/to/scaler.joblib')
     label_encoders = joblib.load('label_encoders.joblib')
     return scaler, label_encoders
 

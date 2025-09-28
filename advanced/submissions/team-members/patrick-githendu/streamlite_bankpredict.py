@@ -72,4 +72,4 @@ if st.button("Predict"):
     pred_prob = model.predict(input_df)[0][0]
     pred = int(pred_prob > 0.5)
     st.write(f"**Prediction:** {'Subscribed' if pred else 'Not Subscribed'} (Probability: {pred_prob:.2f})")
-    import os
+    

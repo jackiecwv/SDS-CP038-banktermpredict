@@ -291,14 +291,17 @@ A:
 
 🕵️ 4. Model Explainability
 Q: What explainability methods (e.g., SHAP, LIME) did you apply to interpret your model's predictions?
-A:SHAP - SHapley Additive exPlanations. For this dataset and neural network models, SHAP is the preferred method for explainability. SHAP provides both local and global feature importance, is theoretically sound, and works well with complex models like neural networks. It helps us understand which features most influence the model’s predictions across the entire dataset
+A:
 
 Q: What were the most important features according to your explainability analysis?
-A: Age then job 
+A:
 
 Q: How did model explainability influence your understanding or trust in the model?
-A: I think it is relying on few features for most to make predictions. 
+A:
 
+## Model Explainability: SHAP vs LIME
+
+For this dataset and neural network models, SHAP is the preferred method for explainability. SHAP provides both local and global feature importance, is theoretically sound, and works well with complex models like neural networks. It helps us understand which features most influence the model’s predictions across the entire dataset.
 
 **Summary Table: SHAP vs LIME**
 
@@ -312,3 +315,6 @@ A: I think it is relying on few features for most to make predictions.
 | Computation           | Slower, more precise                      | Faster, less precise          |
 | Output                | Feature contributions (per prediction)     | Feature weights (per example) |
 
+**Recommendation:**
+
+> SHAP is used in the notebook to explain the neural network’s predictions and to identify the most important features influencing the outcome. This provides more reliable and comprehensive insights for this dataset than LIME.

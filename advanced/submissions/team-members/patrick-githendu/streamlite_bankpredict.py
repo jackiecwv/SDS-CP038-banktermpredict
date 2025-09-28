@@ -5,7 +5,7 @@ import joblib
 # --- Load preprocessing objects only (not model) ---
 @st.cache_resource
 def load_preprocessing():
-    scaler = joblib.load('/absolute/path/to/scaler.joblib')
+    scaler = joblib.load('scaler.joblib')
     label_encoders = joblib.load('label_encoders.joblib')
     return scaler, label_encoders
 
@@ -72,3 +72,4 @@ if st.button("Predict"):
     pred_prob = model.predict(input_df)[0][0]
     pred = int(pred_prob > 0.5)
     st.write(f"**Prediction:** {'Subscribed' if pred else 'Not Subscribed'} (Probability: {pred_prob:.2f})")
+    import os

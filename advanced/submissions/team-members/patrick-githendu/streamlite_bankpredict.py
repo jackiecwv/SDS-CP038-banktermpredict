@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import os
+st.write("Current working directory:", os.getcwd())
+st.write("Files in directory:", os.listdir(os.getcwd()))
 
 # --- Load preprocessing objects only (not model) ---
 @st.cache_resource
@@ -10,6 +13,7 @@ def load_preprocessing():
     return scaler, label_encoders
 
 scaler, label_encoders = load_preprocessing()
+
 
 # --- Feature list (update to match your model) ---
 feature_list = [

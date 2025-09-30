@@ -11,6 +11,13 @@ def load_preprocessing():
     return scaler, label_encoders
 
 scaler, label_encoders = load_preprocessing()
+# Remove 'y' from scaler if present
+if hasattr(scaler, 'feature_names_in_'):
+    scaler.feature_names_in_ = [f for f in scaler.feature_names_in_ if f != 'y']
+
+# Remove 'y' from label_encoders if present
+if 'y' in label_encoders:
+    del label_encoders['y']
 
 
 # --- Feature list (update to match your model) ---

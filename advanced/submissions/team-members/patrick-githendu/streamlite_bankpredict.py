@@ -20,18 +20,17 @@ if 'y' in label_encoders:
     del label_encoders['y']
 
 
-# --- Feature list (update to match your model) ---
+# --- Feature list (original features only, no engineered features) ---
 feature_list = [
     'age', 'job', 'marital', 'education', 'default', 'balance', 'housing', 'loan',
-    'contact', 'day', 'month', 'duration', 'campaign', 'pdays', 'previous', 'poutcome',
-    'campaign_intensity', 'job_education', 'married_with_loan', 'single_with_housing', 'recent_contact'
+    'contact', 'day', 'month', 'duration', 'campaign', 'pdays', 'previous', 'poutcome'
 ]
 
 # --- Streamlit UI ---
 st.title("Bank Term Deposit Prediction (Focal Loss Model)")
 st.write("Enter customer details to predict the likelihood of subscribing to a term deposit.")
 
-# --- Input form for all features ---
+# --- Input form for all original features only ---
 user_input = {}
 for feature in feature_list:
     if feature in ['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact', 'month', 'poutcome']:

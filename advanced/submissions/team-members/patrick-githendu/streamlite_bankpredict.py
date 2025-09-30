@@ -58,7 +58,7 @@ if st.button("Predict"):
         return focal_loss_fixed
 
     # Load model only when needed
-    model = load_model('focal_model.h5', custom_objects={'focal_loss_fixed': focal_loss(gamma=2., alpha=0.25)})
+    model = load_model('advanced/submissions/team-members/patrick-githendu/focal_model.h5', custom_objects={'focal_loss_fixed': focal_loss(gamma=2., alpha=0.25)})
 
     # Convert input to DataFrame
     input_df = pd.DataFrame([user_input])

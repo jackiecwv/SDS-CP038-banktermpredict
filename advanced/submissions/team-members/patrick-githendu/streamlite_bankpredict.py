@@ -8,8 +8,8 @@ st.write("Files in directory:", os.listdir(os.getcwd()))
 # --- Load preprocessing objects only (not model) ---
 @st.cache_resource
 def load_preprocessing():
-    scaler = joblib.load('scaler.joblib')
-    label_encoders = joblib.load('label_encoders.joblib')
+    scaler = joblib.load('advanced/submissions/team-members/patrick-githendu/scaler.joblib')
+    label_encoders = joblib.load('advanced/submissions/team-members/patrick-githendu/label_encoders.joblib')
     return scaler, label_encoders
 
 scaler, label_encoders = load_preprocessing()

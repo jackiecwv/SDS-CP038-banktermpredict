@@ -35,7 +35,18 @@ for feature in feature_list:
 
 # --- Feature engineering (must match notebook) ---
 def engineer_features(df):
-    df['campaign_intensity'] = pd.cut(df['campaign'], bins=[-1, 2, 5, df['campaign'].max()], labels=['low', 'medium', 'high'])
+    # Ensure bins are strictly increasing for pd.cut
+    max_campaign = df['campaign'].max()
+    if max_campaign <= 2:
+        bins = [-1, max_campaign]
+        labels = ['low']
+    elif max_campaign <= 5:
+        bins = [-1, 2, max_campaign]
+        labels = ['low', 'medium']
+    else:
+        bins = [-1, 2, 5, max_campaign]
+        labels = ['low', 'medium', 'high']
+    df['campaign_intensity'] = pd.cut(df['campaign'], bins=bins, labels=labels)
     df['job_education'] = df['job'] + '_' + df['education']
     df['married_with_loan'] = ((df['marital'] == 'married') & (df['loan'] == 'yes')).astype(int)
     df['single_with_housing'] = ((df['marital'] == 'single') & (df['housing'] == 'yes')).astype(int)

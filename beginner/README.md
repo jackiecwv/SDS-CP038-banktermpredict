@@ -35,12 +35,12 @@ The Beginner Track focuses on building a **traditional ML workflow** to predict 
 * Experiment with boosting methods (XGBoost, LightGBM)
 * Track experiments with **MLflow**
 * Evaluate models with Accuracy, Precision, Recall, F1-score, ROC-AUC
-
-### ✅ Week 4: Model Tuning + Deployment
-
 * Tune key hyperparameters using GridSearchCV or RandomizedSearchCV
 * Validate models with cross-validation
 * Select the best-performing model based on metrics
+
+### ✅ Week 4: Deployment
+
 * Save final model pipeline with preprocessing steps included
 * Build a **Streamlit app** that accepts client features as inputs
 * Predict whether the client will subscribe to a term deposit

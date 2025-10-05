@@ -17,8 +17,8 @@ logging.getLogger('sklearn').setLevel(logging.ERROR)
 st.set_page_config(page_title="Bank Term Deposit Predictor", page_icon=":bank:", layout="centered")
 
 # --- Load Model ---
-# MODEL_FILE = "beginner/submissions/team-members/jackiecwv/bankterm_pipeline.pkl" 
-MODEL_FILE = "bankterm_pipeline.pkl"
+MODEL_FILE = "beginner/submissions/team-members/jackiecwv/bankterm_pipeline.pkl" 
+# MODEL_FILE = "bankterm_pipeline.pkl"
 # Locked threshold from your notebook (recall-first)
 LOCKED_THRESHOLD = 0.45
 
